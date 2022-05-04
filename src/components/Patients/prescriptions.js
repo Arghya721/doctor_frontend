@@ -51,13 +51,7 @@ const fetchPrescriptions = async (id,auth) => {
   return tempdata;
 }
 
-var DateTransform = (date) => {
-  let milliseconds = Date.parse(date);
-  date = new Date(milliseconds)
-  console.log(date);
-  var d = (date.getDate()) + "/" + (date.getMonth() + 1) + "/" + (date.getFullYear());
-  return d;
-}
+
 function Prescriptions({ id, setPage }) {
 
   const auth = useContext(AuthContext);
