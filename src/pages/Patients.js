@@ -87,8 +87,7 @@ function Patients({ patient, setPatient ,setalertapp}) {
                   <Route exact path="/patients/logout" render={() => {logout()}}>
                   </Route>
 
-                  {/* <Route exact path="/patients/bookapp/confirm" component={AppConfirm} /> */}
-                  {/* <Route exact path="/patients" component={Patients} />
+
         <Route exact path="/patientlist" component={PatientList} />
         <Route exact path="/bookapp" component={Bookapp} />
         <Route exact path="/signup" component={Signup} />
